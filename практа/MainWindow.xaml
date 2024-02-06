@@ -1,0 +1,24 @@
+﻿<Window x:Class="практа.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:практа"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFE8BEBE">
+        <Button x:Name="_1" Content="" HorizontalAlignment="Left" Height="70" Margin="252,144,0,0" VerticalAlignment="Top" Width="87" Click="prostoClick" IsEnabled="False"/>
+        <Button x:Name="_4" Content="" HorizontalAlignment="Left" Height="70" Margin="252,219,0,0" VerticalAlignment="Top" Width="87" Click="prostoClick" IsEnabled="False"/>
+        <Button x:Name="_9" Content="" HorizontalAlignment="Left" Height="71" Margin="434,294,0,0" VerticalAlignment="Top" Width="85" Click="prostoClick" RenderTransformOrigin="0.463,0.476" IsEnabled="False"/>
+        <Button x:Name="_7" Content="" HorizontalAlignment="Left" Height="71" Margin="253,294,0,0" VerticalAlignment="Top" Width="86" Click="prostoClick" IsEnabled="False"/>
+        <Button x:Name="_8" Content="" HorizontalAlignment="Left" Height="71" Margin="344,294,0,0" VerticalAlignment="Top" Width="85" Click="prostoClick" IsEnabled="False"/>
+        <Button x:Name="_5" Content="" HorizontalAlignment="Left" Height="70" Margin="343,219,0,0" VerticalAlignment="Top" Width="86" Click="prostoClick" IsEnabled="False"/>
+        <Button x:Name="_6" Content="" HorizontalAlignment="Left" Height="71" Margin="434,218,0,0" VerticalAlignment="Top" Width="86" Click="prostoClick" IsEnabled="False"/>
+        <Button x:Name="_3" Content="" HorizontalAlignment="Left" Height="69" Margin="434,144,0,0" VerticalAlignment="Top" Width="86" Click="prostoClick" IsEnabled="False"/>
+        <Button x:Name="_2" Content="" HorizontalAlignment="Left" Height="70" Margin="343,144,0,0" VerticalAlignment="Top" Width="86" Click="prostoClick" IsEnabled="False"/>
+        <TextBlock HorizontalAlignment="Left" Height="272" Margin="232,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="308" Background="#FFA9D8DD" Panel.ZIndex="-3"><Run Text="                     "/><Run/><LineBreak/><Run Language="ru-ru" Text="&#x9;          "/><Run Text="Йоу крестики - нолики 😎"/></TextBlock>
+        <TextBox x:Name="pobed" HorizontalAlignment="Left" Height="360" Margin="36,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="163" Background="#FFD1F4DE"/>
+        <Button x:Name="start" Content="Начать игру" HorizontalAlignment="Left" Height="45" Margin="301,37,0,0" VerticalAlignment="Top" Width="170" Background="#FF9EB6FF" Click="start_Click"/>
+
+    </Grid>
+</Window>
